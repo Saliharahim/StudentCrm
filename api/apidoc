@@ -1,0 +1,44 @@
+list all students
+=======================
+
+url:http://127.0.0.1:8000/api/students/
+method:get
+body:Null
+headers:Null
+
+
+student detail
+================
+
+url:http://127.0.0.1:8000/api/students/{id}/
+method:get
+body:Null
+headers:Null
+
+
+student create
+===================
+
+url:http://127.0.0.1:8000/api/students/
+method:post
+body:{"name":"vineeth","course":"python","email":"vineeth@gmail.com","address":"vinubhavan","contact":987654321,"gender":"male"}
+headers:Null
+
+
+student update
+===============
+
+url:http://127.0.0.1:8000/api/students/{id}/
+method:put
+body:{"name":"vineeth","course":"python","email":"vineeth@gmail.com","address":"vinubhavan","contact":987654321,"gender":"male"}
+headers:Null
+
+
+
+student delete
+===================
+
+url:http://127.0.0.1:8000/api/students/{id}/
+method:delete
+body:Null
+headers:Null
